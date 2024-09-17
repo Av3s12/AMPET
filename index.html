@@ -29,12 +29,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-2">
-                    <button onclick="window.open('index.html'); window.close('index.html')" class="classe_botao btn btn-primary">Home</button>
                     <button onclick="func_carousel()" class="classe_botao btn btn-primary">Produtos</button>
                     <button class="classe_botao btn btn-primary">Servicos</button>
                     <button class="classe_botao btn btn-primary">Cadastro</button>
                     <button onclick="func_contatos()" class="classe_botao btn btn-primary">Contato</button>
-                    <button onclick="window.close('index.html')" class="classe_botao btn btn-primary">Sair</button>                    
+                    <button onclick="globalThis.scrollTo(0,0)" class="classe_botao btn btn-primary">Home</button>					
+                    <button onclick="window.open('','_self').close()" class="classe_botao btn btn-primary">Sair</button>                    
                 </div>
                 <div class="col-sm-04">
                     <left><img src="PET_PICT.png"></left>                
